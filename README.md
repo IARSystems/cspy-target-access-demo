@@ -1,5 +1,8 @@
 # Getting Started with the Target Access plugin for IAR Embedded Workbench
 
+>[!WARNING]
+>The information in this repository is subject to change without notice and does not represent a commitment on any part of IAR. While the information contained herein is assumed to be accurate, IAR assumes no responsibility for any errors or omissions.
+
 The Target Access plugin for the C-SPY Debugger, alongside its SDK, are automatically installed with the IAR Embedded Workbench.
 
 The plugin provides a server that listens to the `9931/UDP` port and runs on top of the C-SPY Debugger. Its Target Access SDK provides an API for a third-party client to establish a network connection to the server and, from there, tap into a device target's memory to perform runtime read/write access. The SDK also provides capabilities for a client to monitor hardware ITM events.  
@@ -169,9 +172,19 @@ So that the `settings/target.Simulator.cspy.bat` script will execute `cspybat` w
 
 >__Note__ Use `Ctrl-C` to terminate the batch job. 
 
+## Summary
+The demonstration applications have highlighted the powerful capabilities of the _IAR C-SPY Target Access_ plugin. From here, the potential to enhance your debugging efficiency and productivity is virtually limitless.
 
-## Disclaimer
-The information in this repository is subject to change without notice and does not represent a commitment on any part of IAR. While the information contained herein is assumed to be accurate, IAR assumes no responsibility for any errors or omissions.
+[__` Follow us `__](https://github.com/iarsystems) on GitHub to get updates about tutorials like this and more.
 
-## Troubleshooting
-If there are technical issues related to the IAR products and you are eligible for support, please get in touch with the IAR support services: https://iar.com/support.
+
+## Issues
+For technical support contact [IAR Customer Support][url-iar-customer-support].
+
+For questions or suggestions related to this tutorial: try the [wiki][url-repo-wiki] or check [earlier issues][url-repo-issue-old]. If those don't help, create a [new issue][url-repo-issue-new] with detailed information.
+
+[url-iar-customer-support]: https://iar.my.site.com/mypages/s/contactsupport
+
+[url-repo-wiki]: https://github.com/IARSystems/cspy-target-access-demo/wiki
+[url-repo-issue-new]: https://github.com/IARSystems/cspy-target-access-demo/issues/new
+[url-repo-issue-old]: https://github.com/IARSystems/cspy-target-access-demo/issues?q=is%3Aissue+is%3Aopen%7Cclosed
